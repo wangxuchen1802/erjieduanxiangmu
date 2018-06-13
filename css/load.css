@@ -1,0 +1,91 @@
+@charset "UTF-8";
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+
+.position {
+  height: 54px;
+  line-height: 54px;
+  font-size: 14px;
+  color: #666;
+  font-family: "楷书"; }
+  .position a {
+    color: #666;
+    font-family: "宋体"; }
+  .position span {
+    padding: 0 5px;
+    color: #777; }
+
+.title-box {
+  width: 980px;
+  height: 42px;
+  float: left;
+  margin: 0 108px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-bottom: #f5f5f5 solid 1px; }
+  .title-box .left {
+    height: 35px;
+    float: left;
+    font-size: 23px;
+    line-height: 36px;
+    color: #666; }
+  .title-box .right {
+    font-size: 14px;
+    height: 20px;
+    width: 450px;
+    padding-top: 12px;
+    text-align: right;
+    float: right;
+    color: #9B9B9B; }
+
+.use-logo {
+  width: 500px;
+  margin: 0px auto;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border: #f5f5f5 solid 1px; }
+  .use-logo form {
+    overflow: hidden;
+    color: #666; }
+    .use-logo form .content {
+      padding: 0 0 20px 30px; }
+      .use-logo form .content .left {
+        width: 346px;
+        float: left;
+        font-size: 14px; }
+        .use-logo form .content .left input {
+          text-indent: 6px;
+          height: 32px;
+          line-height: 32px;
+          border: #f5f5f5 solid 2px;
+          width: 290px;
+          margin-right: 4px;
+          margin-top: 2px; }
+      .use-logo form .content .right {
+        float: left;
+        padding-left: 20px;
+        padding-top: 3px; }
+        .use-logo form .content .right input {
+          border: none;
+          background: #484a57;
+          font-size: 20px;
+          color: #FFF;
+          font-weight: normal;
+          width: 86px;
+          height: 75px;
+          cursor: pointer; }
+  .use-logo .use-link {
+    border-top: #f5f5f5 solid 1px;
+    width: 470px;
+    height: 60px;
+    padding-top: 14px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #999; }
+    .use-logo .use-link a {
+      color: #666; }
+
+.footer-autho {
+  border-top: #f5f5f5 solid 1px; }

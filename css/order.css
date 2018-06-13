@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+
+.position {
+  height: 54px;
+  line-height: 54px;
+  font-size: 14px;
+  color: #666;
+  font-family: "楷书"; }
+  .position a {
+    color: #666;
+    font-family: "宋体"; }
+  .position span {
+    padding: 0 5px;
+    color: #777; }
+
+.block {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 30px; }
+  .block .areal {
+    width: 200px;
+    float: left; }
+    .block .areal .userMenu {
+      width: 200px;
+      float: left;
+      background: url(../../../img/bg1.gif) repeat-y right 0;
+      padding: 21px 0; }
+      .block .areal .userMenu a {
+        font-size: 14px;
+        height: 37px;
+        line-height: 37px;
+        color: #3f3f3f;
+        text-decoration: none;
+        width: 186px;
+        float: left;
+        background: url(../../../img/user_li1.gif) no-repeat;
+        margin-bottom: 4px;
+        padding-left: 13px; }
+        .block .areal .userMenu a img {
+          vertical-align: middle;
+          display: inline-block; }
+  .block .arear {
+    width: 831px;
+    float: left;
+    padding-left: 33px;
+    line-height: 28px; }
+    .block .arear .box {
+      padding-bottom: 2px;
+      overflow: hidden; }
+      .block .arear .box h5 {
+        text-align: right;
+        background-color: #f6f6f6;
+        font-weight: 100;
+        overflow: hidden;
+        color: #666;
+        margin-top: 10px;
+        margin-bottom: 40px; }
+        .block .arear .box h5 span {
+          font-size: 17px;
+          float: left;
+          display: block;
+          padding-left: 15px;
+          height: 40px;
+          line-height: 40px; }
+      .block .arear .box .f1 {
+        color: #666;
+        font-size: 12px;
+        height: 18px;
+        line-height: 18px;
+        margin-bottom: 40px; }
+        .block .arear .box .f1 .tab1 {
+          border-collapse: collapse; }
+          .block .arear .box .f1 .tab1 td {
+            padding-left: 2px; }
+            .block .arear .box .f1 .tab1 td a {
+              color: #666; }
+      .block .arear .box .tab2 {
+        border-collapse: collapse; }
+        .block .arear .box .tab2 td {
+          padding-left: 2px; }
+          .block .arear .box .tab2 td a {
+            color: #666; }
+      .block .arear .box .pages {
+        width: 807px;
+        padding: 40px 0;
+        text-align: center;
+        font-size: 12px; }
+      .block .arear .box .f2 {
+        height: 59px;
+        line-height: 18px; }
+        .block .arear .box .f2 table {
+          border-color: #666;
+          border-collapse: collapse;
+          font-size: 12px; }
+          .block .arear .box .f2 table .btn {
+            border-radius: 3px;
+            padding: 1px 10px;
+            background: #e4d722;
+            border: 1px solid #333; }
+
+.footer-autho {
+  border-top: #f5f5f5 solid 1px; }

@@ -6,7 +6,8 @@
     position: fixed;
     right: 0;
     top: 50%;
-    margin-top: -77px; }
+    margin-top: -77px; 
+    z-index:999;}
   .main .main-bg {
     height: 151px;
     position: fixed;
@@ -14,7 +15,8 @@
     top: 50%;
     left: 10px;
     margin-top: -75px;
-    background: url(../../../img/load.png) no-repeat; }
+    background: url(../img/load.png) no-repeat; 
+    z-index:999;}
     .main .main-bg .btnText {
       position: absolute;
       top: 124px;
@@ -92,15 +94,15 @@
         padding-left: 24px;
         color: #fff; }
       .main .nav-menu-list .show-mark .ladies {
-        background: url(../../../img/ladies-icon.png) no-repeat left center; }
+        background: url(../img/ladies-icon.png) no-repeat left center; }
       .main .nav-menu-list .show-mark .men {
-        background: url(../../../img/men-icon.png) no-repeat left center; }
+        background: url(../img/men-icon.png) no-repeat left center; }
       .main .nav-menu-list .show-mark .bags {
-        background: url(../../../img/chi-icon.png) no-repeat left center; }
+        background: url(../img/chi-icon.png) no-repeat left center; }
       .main .nav-menu-list .show-mark .kids {
-        background: url(../../../img/bag-icon.png) no-repeat left center; }
+        background: url(../img/bag-icon.png) no-repeat left center; }
       .main .nav-menu-list .show-mark .house {
-        background: url(../../../img/shoes-icon.png) no-repeat left center; }
+        background: url(../img/shoes-icon.png) no-repeat left center; }
       .main .nav-menu-list .show-mark .show-mark-list {
         padding-left: 24px; }
         .main .nav-menu-list .show-mark .show-mark-list a {
@@ -171,7 +173,7 @@
   .right .top {
     height: 119px;
     border-bottom: #f4f4f4 solid 1px;
-    background: url(../../../img/login-box-bg.jpg) no-repeat; }
+    background: url(../img/login-box-bg.jpg) no-repeat; }
     .right .top .l {
       width: 100px;
       height: 119px;
@@ -192,7 +194,7 @@
         display: block;
         font-size: 12px; }
       .right .top .r .go-load {
-        background: url(../../../img/go-login-icon-hover.png) no-repeat 8px center;
+        background: url(../img/go-login-icon-hover.png) no-repeat 8px center;
         width: 70px;
         border: #000 solid 1px;
         line-height: 24px;
@@ -204,7 +206,7 @@
         font-size: 12px;
         display: block; }
         .right .top .r .go-load:hover {
-          background: #484a57 url(../../../img/go-login-icon.png) no-repeat 8px center;
+          background: #484a57 url(../img/go-login-icon.png) no-repeat 8px center;
           color: #000;
           border: #484a57 solid 1px;
           color: #fff; }
@@ -406,7 +408,7 @@
     color: #FFF;
     text-align: center;
     font-size: 24px;
-    background: #e30a40 url(../../../img/self-help-title-icon.png) no-repeat center 18px; }
+    background: #e30a40 url(../img/self-help-title-icon.png) no-repeat center 18px; }
     .self-help .left span {
       margin-top: 85px;
       width: 138px;
@@ -432,21 +434,21 @@
       .self-help .middle a:hover {
         background-color: #fbfbfb; }
     .self-help .middle .list1 {
-      background: url(../../../img/self-help-icon-1.png) no-repeat 46px center; }
+      background: url(../img/self-help-icon-1.png) no-repeat 46px center; }
     .self-help .middle .list2 {
-      background: url(../../../img/self-help-icon-2.png) no-repeat 52px center; }
+      background: url(../img/self-help-icon-2.png) no-repeat 52px center; }
     .self-help .middle .list3 {
-      background: url(../../../img/self-help-icon-3.png) no-repeat 52px center; }
+      background: url(../img/self-help-icon-3.png) no-repeat 52px center; }
     .self-help .middle .list4 {
-      background: url(../../../img/self-help-icon-4.png) no-repeat 46px center; }
+      background: url(../img/self-help-icon-4.png) no-repeat 46px center; }
     .self-help .middle .list5 {
-      background: url(../../../img/self-help-icon-5.png) no-repeat 46px center; }
+      background: url(../img/self-help-icon-5.png) no-repeat 46px center; }
     .self-help .middle .list6 {
-      background: url(../../../img/self-help-icon-6.png) no-repeat 54px center; }
+      background: url(../img/self-help-icon-6.png) no-repeat 54px center; }
     .self-help .middle .list7 {
-      background: url(../../../img/self-help-icon-7.png) no-repeat 53px center; }
+      background: url(../img/self-help-icon-7.png) no-repeat 53px center; }
     .self-help .middle .list8 {
-      background: url(../../../img/self-help-icon-8.png) no-repeat 50px center; }
+      background: url(../img/self-help-icon-8.png) no-repeat 50px center; }
   .self-help .right {
     padding: 18px;
     width: 188px;
@@ -617,7 +619,7 @@
         line-height: 22px;
         padding-left: 18px;
         padding-top: 3px;
-        background: url(../../../img/everyday-conetnt-li-icon.jpg) no-repeat left 8px;
+        background: url(../img/everyday-conetnt-li-icon.jpg) no-repeat left 8px;
         vertical-align: middle;
         font-size: 14px; }
         .index-footer-other .everyday .everyday-content li a {

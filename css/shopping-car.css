@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+
+.position {
+  height: 54px;
+  line-height: 54px;
+  font-size: 14px;
+  color: #666;
+  font-family: "楷书"; }
+  .position a {
+    color: #666;
+    font-family: "宋体"; }
+  .position span {
+    padding: 0 5px;
+    color: #777; }
+
+.title-box {
+  width: 980px;
+  height: 42px;
+  float: left;
+  margin: 0 108px;
+  margin-bottom: 20px;
+  overflow: hidden; }
+  .title-box .left {
+    height: 35px;
+    float: left;
+    font-size: 23px;
+    line-height: 36px;
+    color: #666; }
+  .title-box .right {
+    height: 30px;
+    width: 505x;
+    padding-top: 5px;
+    text-align: right;
+    float: right;
+    color: #9B9B9B; }
+
+.flow-box {
+  border: 1px solid #e3e3e3;
+  padding-bottom: 4px;
+  margin-top: 10px;
+  width: 1200px;
+  overflow: hidden; }
+  .flow-box h6 {
+    margin: 0px;
+    padding: 0px;
+    height: 31px;
+    line-height: 31px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    background: url(../../../img/roof_bg.jpg) repeat-x;
+    color: #3f3f3f;
+    border: 1px solid #fff;
+    padding-right: 10px; }
+
+form {
+  font-size: 12px; }
+  form table {
+    margin: 10px auto;
+    border: 1px solid #eee;
+    border-collapse: collapse; }
+    form table a {
+      color: #666; }
+    form table th {
+      line-height: 28px;
+      font-weight: normal;
+      font-size: 14px; }
+    form table td {
+      text-indent: 8px;
+      text-align: center; }
+      form table td img {
+        width: 200px;
+        height: 183px;
+        margin: 0 auto; }
+      form table td input {
+        text-align: center;
+        width: 50px;
+        border: 1px solid #ccc;
+        height: 30px;
+        line-height: 30px; }
+    form table .buy {
+      text-align: left; }
+    form table .r {
+      text-indent: 8px;
+      text-align: right; }
+      form table .r input {
+        line-height: 24px;
+        width: 80px;
+        height: 24px; }
+
+.footer-autho {
+  border-top: #f5f5f5 solid 1px;
+  margin-top: 65px; }
